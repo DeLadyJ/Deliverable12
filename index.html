@@ -4,12 +4,13 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@2.42.1/dist/full.css" rel="stylesheet" type="text/css" / >
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <header class="mt-12">
-        <div class="navbar bg-base-100">
+<body class="bg-secondary h-screen w-screen">
+    <header class="h-32 w-full">
+        <h1 class="text-2xl text-white font-bold text-center mt-12"> Welome to the New Age Aqarium</h1>
+        <div class="navbar bg-secondary">
             <div class="flex-1">
                 <div class="dropdown">
-                <label tabindex="0" class="btn btn-ghost normal-case text-xl m-1">daisyUI</label>
+                <label tabindex="0" class="btn btn-ghost normal-case text-white text-xl m-1">daisyUI</label>
                 <ul class="dropdown-content menu p-2 bg-base-100 btn btn-ghost text-xl w-52">
                   <li><a>Item 1</a></li>
                   <li><a>Item 2</a></li>
@@ -54,23 +55,23 @@
             </div>
           </div>
     </header>
-      <main>
-        <div class="box-content h-56 w-48 px-4 border-4 rounded-lg border-pink-500 mt-12 grid grid-col-1 place-content-center">
+      <main class="">
+        <div class="box-content h-56 w-48 px-4 border-4 rounded-lg border-white mt-12 grid grid-col-1 place-content-center">
             <img scr="https://freesvg.org/img/CoralBank.png w-full h-full">
             <label class="block">
-                <span class="block text-sm font-medium">Username</span>
+                <span class="block text-sm text-white font-medium">Username</span>
                 <input type="text" value="" disabled class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
                     focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500">
-                <span class="block text-sm font-medium">Email</span>
+                <span class="block text-sm text-white font-medium">Email</span>
                 <input type="text" value="" disabled class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
                     focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500">
-                <p>New user<a href="signup.html"> click here</a></p>
+                <p class="text-white">New user<a href="signup.html"> click here</a></p>
             </label>
         </div>
       </main>
-      <footer class="footer footer-center p-4 bg-base-300 text-base-content absolute inserr-x-0 bottom-0">
+      <footer class="footer footer-center p-4 bg-secondary-focus text-base-content absolute inserr-x-0 bottom-0">
         <div>
-          <p>Copyright © 2022 - All right reserved by ACME Industries Ltd</p>
+          <p class="text-white">Copyright © 2022 - All right reserved by ACME Industries Ltd</p>
         </div>
       </footer>
 </body>
