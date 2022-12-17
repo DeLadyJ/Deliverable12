@@ -3,8 +3,8 @@
     <head>
         <link href="https://cdn.jsdelivr.net/npm/daisyui@2.42.1/dist/full.css" rel="stylesheet" type="text/css" / >
         <script src="https://cdn.tailwindcss.com"></script>
-    </head>
-    <body class=""> 
+    </head> 
+    <body class="h-screen w-screen"> 
         <header class="h-32 w-full text-center bg-secondary">
             <h1 class="text-white text-center font-bold mt-12">Profile page</h1><br>
             <div class="avatar">
@@ -17,21 +17,21 @@
             <img scr ='https://www.shutterstock.com/image-vector/beauty-corals-underwater-view-background-600w-418863691.jpg' w-full h-48>
             <div class=" mt-8 dropdown dropdown-hover grid justify-items-center">
                 <label class="btn m-1">Hover</label>
-                <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
-                    <p class="italic">Basic Info</p>
+                <ul tabindex="0" class="dropdown-content menu p-2 bg-base-100 border-4 border-pink-500 rounded-box w-52">
+                    <p class="text-pink-500 italic">Basic Info</p>
                   <li><a>Name</a></li>
                   <li><a>Birthday</a></li>
                   <li><a>Gender</a></li>
-                  <p class="italic">Contact Info</p>
+                  <p class="text-pink-500 italic">Contact Info</p>
                   <li><a>Phone Number</a></li>
                   <li><a>Email</a></li>
                   <li><a>Address</a></li>
                 </ul>
               </div>
         </main>
-        <footer class="footer footer-center p-4 bg-secondary text-base-content absolute insert-x-0 bottom-0">
+        <footer class="footer footer-center p-4 bg-secondary-focus text-base-content absolute insert-x-0 bottom-0">
             <div>
-              <p>Copyright © 2022 - All right reserved by ACME Industries Ltd</p>
+              <p class="text-white">Copyright © 2022 - All right reserved by ACME Industries Ltd</p>
             </div>
         </footer>
     </body>
