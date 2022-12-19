@@ -3,47 +3,7 @@
 <head>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@2.42.1/dist/full.css" rel="stylesheet" type="text/css" / >
     <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-             function lcCheck() {
-            let pwdValue = document.getElementById("pwd").value; 
-            let lowerCasePattern = /[a-z]/g;
-            let lowerCaseAns = lowerCasePattern.test(pwdValue);
-            if (lowerCaseAns === true) {
-                document.getElementById("msgLC").innerHTML = "great you have lowercase"; 
-            }   else {
-                document.getElementById("msgLC").innerHTML = "oops no lowercase";
-            }
-        } 
-                    function ucCheck() {
-            let pwdValue = document.getElementById("pwd").value;
-            let upperCasePattern = /[A-Z]/g;
-            let upperCaseAns = upperCasePattern.test(pwdValue);
-            if (upperCaseAns === true) {
-                document.getElementById("msgUC").innerHTML = "great you have uppercase"; 
-            }   else {
-                document.getElementById("msgUC").innerHTML = "oops no uppercase";
-            }
-        }
-                    function numCheck() {
-            let pwdValue = document.getElementById("pwd").value;
-            let numPattern = /[0-9]/g;
-            let numAns = numPattern.test(pwdValue);
-        
-        if (numAns === true) {
-                document.getElementById("msgNB").innerHTML = "great you have numbers";
-        }    else {
-                document.getElementById("msgNB").innerHTML = "oops no numbers";
-        }
-        }
-                    function lenCheck() {
-            let pwdValue = document.getElementById("pwd").value;
-            if (pwdValue.length >=8) {
-                document.getElementById("msgLN").innerHTML = "password is long enough";
-            }   else {
-                document.getElementById("msgLN").innerHTML = "too short";
-            }
-        }
-    </script>
+    
 </head>
 <body class="h-screen w-screen bg-red-100">
     <header class="bg-secondary h-32 w-full">
@@ -105,8 +65,6 @@
                 <span class="block text-sm text-pink-500 font-medium">Password</span>
                 <input type="text" id="pwd" value="" abled class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
                     focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500">
-    
-            <button class="border-2 h-8 w-24 text-pink-500 m-4" onclick="lcCheck();ucCheck();numCheck();lenCheck()">Submit</button>
                 <p class="text-pink-500"><a href="signup.html">New user</a></p>
                 <p class="text-pink-500"><a href="">Forgot password</a></p>
             </label>
