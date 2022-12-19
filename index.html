@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.42.1/dist/full.css" rel="stylesheet" type="text/css" / >
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.42.1/dist/full.css" rel="stylesheet" type="text/css">
     <script src="https://cdn.tailwindcss.com"></script>
-    
 </head>
-<body class="h-screen w-screen bg-red-100">
+<body class="md:h-screen w-screen bg-red-100">
     <header class="bg-secondary h-32 w-full">
-        <h1 class="text-2xl text-white font-bold text-center mt-12"> Welome to the New Age Aqarium</h1>
-        <div class="navbar bg-secondary">
+        <h1 class="text-2xl text-white font-bold text-center mt-12">Welome to the New Age Aquarium</h1>
+        <div class="navbar bg-secondary md:visible">
             <div class="flex-1">
                 <div class="dropdown">
                 <label tabindex="0" class="btn btn-ghost normal-case text-white text-xl m-1">daisyUI</label>
@@ -36,37 +35,36 @@
                   </div>
                 </div>
               </div>
-              <div class="dropdown dropdown-end">
+              <div class="dropdown dropdown-end md:visible">
                 <label tabindex="0" class="btn btn-ghost btn-circle avatar">
                   <div class="w-10 rounded-full">
-                    <img src="https://cdn-icons-png.flaticon.com/512/6213/6213546.png" />
+                    <img src="https://cdn-icons-png.flaticon.com/512/6213/6213546.png"/>
                   </div>
                 </label>
                 <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                   <li><a href="signup.html" class="justify-between">New Signup</a></li>
-                  <li><a href="user.html" class="justify-between">Profile</a></li>
                   <li><a>Settings</a></li>
-                  <li><a>Logout</a></li>
                 </ul>
               </div>
             </div>
           </div>
     </header>
-      <main class="columns-2 grid grid justify-items-center">
-        <div class="box-content h-54 w-54 px-4 border-4 rounded-lg border-pink-500 grid justify-items-center mt-12 py-4">
-            <label class="block text-center">
+      <main class="sm:visible grid grid-cols-2 gap-0">
+        <div class="h-54 w-48 px-4 border-4 rounded-lg border-pink-500 grid grid justify-items-center mt-12 py-4">
+            <label class="box-content text-center">
                 <span class="block text-sm text-pink-500 font-medium">Username</span>
                 <input type="text" value="" abled class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
                     focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500">
                 <span class="block text-sm text-pink-500 font-medium">Password</span>
                 <input type="text" id="pwd" value="" abled class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
                     focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500">
+                    
                 <p class="text-pink-500"><a href="signup.html">New user</a></p>
                 <p class="text-pink-500"><a href="">Forgot password</a></p>
             </label>
         </div>
-        <div>
-          <img scr="https://cdn-icons-png.flaticon.com/512/6213/6213546.png" w-full h-full>
+        <div class="w-full h-full">
+          <img class="inline" scr="https://cdn-icons-png.flaticon.com/512/6213/6213546.png" alt="coral reef photo">
         </div>
       </main>
       <footer class="footer footer-center p-4 bg-secondary-focus text-base-content absolute inserr-x-0 bottom-0">
