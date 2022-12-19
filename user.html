@@ -7,16 +7,16 @@
         <script src="https://cdn.tailwindcss.com"></script>
     </head> 
     <body class="h-screen w-screen"> 
-        <header class="h-32 w-full text-center bg-secondary">
+        <header class="h-32 w-full bg-secondary grid">
             <h1 class="text-white text-center font-bold mt-12">Profile page</h1><br>
-            <div class="avatar">
+            <div class="avatar grid justify-items-center">
                 <div class="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
                     <img src="https://i.pinimg.com/474x/50/6a/f8/506af8d1896158e81dc8643d332cc58d.jpg" />
                 </div>
             </div>            
         </header>
-        <main class="" w-full h-full>
-            <div class=" mt-8 dropdown dropdown-hover grid justify-items-center">
+        <main class="w-full h-full">
+            <div class="mt-24 dropdown dropdown-hover grid justify-items-center">
                 <label class="btn m-1">Hover</label>
                 <ul tabindex="0" class="dropdown-content menu p-2 bg-base-100 border-4 border-pink-500 rounded-box w-52">
                     <p class="text-pink-500 italic">Basic Info</p>
@@ -36,8 +36,7 @@
                   </div>
                 </label>
                 <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-                    <li><a href="signup.html" class="justify-between">New Signup</a></li>
-                  <li><a href="user.html" class="justify-between">Profile</a></li>
+                    <li><a href="index.html" class="justify-between">Home Page</a></li>
                   <li><a>Settings</a></li>
                   <li><a>Logout</a></li>
                 </ul>

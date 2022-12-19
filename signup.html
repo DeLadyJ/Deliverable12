@@ -5,11 +5,18 @@
         <script src="https://cdn.tailwindcss.com"></script>
     </head>
     <body>
-        <header class="bg-secondary h-32 w-full">
+        <header class="bg-secondary h-32 w-full grid">
         <h1 class="text-2xl text-white font-bold text-center">New User Signup Page</h1>
+        <div class="avatar grid justify-items-center mt-8">
+          <div class="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+              <img class="" src="">              
+          </div>
+          <p>Add photo</p>
+      </div>
         <main>
-          <div class=" mt-28 grid justify-items-start">
-            <label class=""></label>
+          <div class="gid grid-cols-2">
+            <div>
+            <label class="mt-16 grid justify-items-start"></label>
             <ul tabindex="0" class="dropdown-content menu p-2 bg-base-100 border-4 border-pink-500 rounded-box w-52">
                 <p class="text-pink-500 italic">Basic Info</p>
               <li><a>Name</a></li>
@@ -33,6 +40,7 @@
               <li><a>Settings</a></li>
               <li><a>Logout</a></li>
             </ul>
+          </div>
           </div>
         </main>
         <footer class="footer footer-center p-4 bg-secondary text-base-content absolute insert-x-0 bottom-0">
