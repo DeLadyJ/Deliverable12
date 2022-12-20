@@ -5,8 +5,8 @@
 <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
 
 <script>
-var xValues = [52,60,73,68,59,50,82,66, 77, 84];
-var yValues = [11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
+var xValues = [11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
+var yValues = [52,60,73,68,59,50,82,66, 77, 84];
 
 new Chart("myChart", {
   type: "line",
@@ -23,7 +23,7 @@ new Chart("myChart", {
   options: {
     legend: {display: false},
     scales: {
-      yAxes: [{ticks: {min: 1, max:31}}],
+      yAxes: [{ticks: {min: 1, max:100}}],
     }
   }
 });
