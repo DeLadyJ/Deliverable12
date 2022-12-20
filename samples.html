@@ -9,7 +9,13 @@
                   <img src="https://i.pinimg.com/474x/50/6a/f8/506af8d1896158e81dc8643d332cc58d.jpg" />
               </div>
           </div>
-            
+          <body class="md:h-screen w-screen bg-red-100">
+            <header class="bg-secondary h-32 w-full">
+              <h1 class="text-2xl text-white font-bold text-center mt-12">Welome to the New Age Aquarium</h1>
+                <div class="bg-secondary md:visible grid grid-cols-3 gap 2">          
+                  <div class="flex-none">
+                  </div>
+                </div>
         </div>            
     </header>
         <div class="dropdown dropdown-end md:visible">
@@ -52,7 +58,41 @@
             </ul>
           </div>
           <div class="grid grid-cols-2 gap-0 mt-8">
-            
+            <main class="md:visible grid grid-cols-3 gap-0">
+              <div class="dropdown m-4">
+                <label tabindex="0" class="btn m-1 text-white bg-secondary-focus">Products</label>
+                <ul tabindex="0" class="dropdown-content menu p-2 bg-base-100 border-2 border-white rounded-box w-52">
+                    <li><a>Tanks</a></li>
+                    <li><a>Food</a></li>
+                    <li><a>Sensors</a></li>
+                </ul>
+            </div>
+              <div class="h-54 w-48 px-4 border-4 rounded-lg border-pink-500 grid grid justify-items-center mt-12 py-4 ml-8">
+                  <label class="box-content text-center">
+                      <span class="block text-sm text-pink-500 font-medium">Username</span>
+                      <input type="text" value="" abled class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
+                          focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500">
+                      <span class="block text-sm text-pink-500 font-medium">Password</span>
+                      <input type="text" id="pwd" value="" abled class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
+                          focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500">
+                          
+                      <p class="text-pink-500"><a href="signup.html">New user</a></p>
+                      <p class="text-pink-500"><a href="">Forgot password</a></p>
+                  </label>
+              </div>
+              <div>
+                <video
+                  autoplay
+                  loop
+                  muted
+                  class="absolute z-10 w-68 md:visible h-80"
+                
+                  src="https://cdn.videvo.net/videvo_files/video/premium/video0026/large_watermarked/cozumel_dive10_preview.mp4" alt="Aquarium video"
+                   type="video/HD" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </main>  
           
         </div>
     </main> 

@@ -4,49 +4,24 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@2.42.1/dist/full.css" rel="stylesheet" type="text/css">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="md:h-screen w-screen bg-red-100">
-    <header class="bg-secondary h-32 w-full">
-      <h1 class="text-2xl text-white font-bold text-center mt-12">Welome to the New Age Aquarium</h1>
-        <div class="bg-secondary md:visible grid grid-cols-3 gap 2">          
-          <div class="flex-none">
-          </div>
-        </div>
-    </header>
-      <main class="md:visible grid grid-cols-3 gap-0">
-        <div class="dropdown m-4">
-          <label tabindex="0" class="btn m-1 text-white bg-secondary-focus">Products</label>
-          <ul tabindex="0" class="dropdown-content menu p-2 bg-base-100 border-2 border-white rounded-box w-52">
-              <li><a>Tanks</a></li>
-              <li><a>Food</a></li>
-              <li><a>Sensors</a></li>
-          </ul>
-      </div>
-        <div class="h-54 w-48 px-4 border-4 rounded-lg border-pink-500 grid grid justify-items-center mt-12 py-4 ml-8">
-            <label class="box-content text-center">
-                <span class="block text-sm text-pink-500 font-medium">Username</span>
-                <input type="text" value="" abled class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
-                    focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500">
-                <span class="block text-sm text-pink-500 font-medium">Password</span>
-                <input type="text" id="pwd" value="" abled class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
-                    focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500">
-                    
-                <p class="text-pink-500"><a href="signup.html">New user</a></p>
-                <p class="text-pink-500"><a href="">Forgot password</a></p>
-            </label>
-        </div>
-        <div>
-          <video
-            autoplay
-            loop
-            muted
-            class="absolute z-10 w-68 md:visible h-80"
-          
-            src="https://cdn.videvo.net/videvo_files/video/premium/video0026/large_watermarked/cozumel_dive10_preview.mp4" alt="Aquarium video"
-             type="video/HD" />
-            Your browser does not support the video tag.
-          </video>
-        </div>
-      </main>
+<body class="bg-secondary h-screen w-screen">
+  <header class="h-12 w-full">    
+      <h1 class="text-white text-xl font-bold p-4">Fish Emporium</h1>
+      <h2 class="text-lg text-white font-bold text-center mt-12 -mt-12">Sign in Page</h2>
+  </header>
+  <main class="h-full w-full">
+      <ul class="menu bg-base-200 w-56 p-2 rounded-box border-p2 mt-20">
+          <li class="border rounded border-pink-200 m-2 text-pink-700"><a>Tanks</a></li>
+          <li class="border rounded border-pink-200 m-2 text-pink-700"><a>Sensors</a></li>
+          <li class="border rounded border-pink-200 m-2 text-pink-700"><a>Reactors</a></li>
+          <li class="border rounded border-pink-200 m-2 text-pink-700"><a>Hallway</a></li>
+          <li class="border rounded border-pink-200 m-2 text-pink-700"><a>Den</a></li>
+          <li class="border rounded border-pink-200 m-2 text-pink-700"><a>Kitchen</a></li>
+          <li class="border rounded border-pink-200 m-2 text-pink-700"><a>Livingroom</a></li>
+          <li class="border rounded border-pink-200 m-2 text-pink-700"><a>Products</a></li>
+          <li class="border rounded border-pink-200 m-2 text-pink-700"><a>User Page</a></li>
+      </ul>
+  </main>
       <footer class="footer footer-center p-4 bg-secondary-focus text-base-content absolute inserr-x-0 bottom-0">
         <div>
           <p class="text-white">Copyright © 2022 - All right reserved by ACME Industries Ltd</p>
