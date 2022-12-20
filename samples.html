@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
     <body>
+      <header class="h-32 w-full">
+        <h1 class="">Profile page</h1><br>
+        <div class="grid grid-cols-3">
+          <div class="avatar grid justify-items-center">
+              <div class="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                  <img src="https://i.pinimg.com/474x/50/6a/f8/506af8d1896158e81dc8643d332cc58d.jpg" />
+              </div>
+          </div>
+            
+        </div>            
+    </header>
         <div class="dropdown dropdown-end md:visible">
             <label tabindex="0" class="btn btn-ghost btn-circle avatar">
               <div class="w-10 rounded-full grid grid-justify-end">
@@ -23,6 +34,27 @@
                type="video/HD" />
               Your browser does not support the video tag.
             </video>
-          </div> 
+          </div>
+          <main class="w-full h-full grid grid-cols-2 gap-0 mt-16">
+          
+            <div class="grid grid-cols-2 gap-0 justify-items-center">
+            <ul class="menu w-68 h-60 p-2 rounded-box border-4 border-pink-500">
+              <li class="menu-title text-xl text-red-300 italic mb-2">Basic Info</li>
+              <input type="text" placeholder="Name" class="input border-4 border-pink-500 w-full max-w-xs mb-2" />
+              <input type="text" placeholder="Birthday" class="input border-4 border-pink-500 max-w-xs mb-2" />
+              <input type="text" placeholder="Gender" class="input border-4 border-pink-500 w-full max-w-xs mb-2" />
+              </ul>
+              <ul class="menu w-68 h-60 p-2 rounded-box border-4 border-pink-500">
+              <li class="menu-title text-xl text-red-300 italic mb-2">Contact Info</li>
+              <input type="text" placeholder="Phone Number" class="input border-4 border-pink-500 w-full max-w-xs mb-2" />
+              <input type="text" placeholder="Address" class="input border-4 border-pink-500 w-full max-w-xs mb-2" />
+              <input type="text" placeholder="Email" class="input border-4 border-pink-500 w-full max-w-xs" />
+            </ul>
+          </div>
+          <div class="grid grid-cols-2 gap-0 mt-8">
+            
+          
+        </div>
+    </main> 
     </body>
 </html>
