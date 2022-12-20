@@ -7,15 +7,39 @@
         <script src="https://cdn.tailwindcss.com"></script>
     </head> 
     <body class="h-screen w-screen"> 
-        <header class="h-32 w-full bg-secondary grid">
-            <h1 class="text-white text-center font-bold mt-12">Profile page</h1><br>
+        <header class="h-32 w-full bg-secondary">
+          
+            <h1 class="text-white text-center text-2xl font-bold mt-12">Profile page</h1><br>
+            <div class="grid grid-cols-3">
             <div class="avatar grid justify-items-center">
                 <div class="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
                     <img src="https://i.pinimg.com/474x/50/6a/f8/506af8d1896158e81dc8643d332cc58d.jpg" />
                 </div>
+            </div>
+                <div class="dropdown dropdown-end grid justify-items-end">
+                  <label tabindex="0" class="btn btn-ghost btn-circle avatar">
+                    <div class="w-10 rounded-full">
+                      <img class="" src="https://cdn-icons-png.flaticon.com/512/6213/6213546.png" />
+                    </div>
+                  </label>
+                  <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+                      <li><a href="index.html" class="justify-between">Home Page</a></li>
+                      <li><a href="products.html">Products</a></li>
+                      <li><a>Logout</a></li>
+                  </ul>
+                </div>
+              </div>
             </div>            
         </header>
         <main class="w-full h-full grid grid-cols-2 gap-0 mt-16">
+          <div class="dropdown">
+          <ul class="menu bg-base-100 w-56">
+            <li><a href="hallway.html">Hallway</a></li>
+            <li><a href="livingroom.html">Livingroom</a></li>
+            <li><a href="den.html">Den</a></li>
+            <li><a href="kitchen.html">kitchen</a></li>
+          </ul>
+        </div>
                 <div class="grid grid-cols-2 gap-0 justify-items-center">
                 <ul class="menu w-68 h-60 p-2 rounded-box border-4 border-pink-500">
                   <li class="menu-title text-xl text-red-300 italic mb-2">Basic Info</li>
@@ -31,30 +55,8 @@
                 </ul>
               </div>
               <div class="grid grid-cols-2 gap-0 mt-8">
-                <div>
-                  <video
-                    autoplay
-                    loop
-                    muted
-                    class="absolute z-10 w-auto sm:invisible md:visible h-80"
-                  
-                    src="https://cdn.videvo.net/videvo_files/video/premium/video0026/large_watermarked/cozumel_dive10_preview.mp4" alt="Aquarium video"
-                     type="video/HD" />
-                    Your browser does not support the video tag.
-                  </video>
-                </div>
-              <div class="dropdown dropdown-end grid justify-items-end">
-            <label tabindex="0" class="btn btn-ghost btn-circle avatar">
-                  <div class="w-10 rounded-full">
-                    <img class="" src="https://cdn-icons-png.flaticon.com/512/6213/6213546.png" />
-                  </div>
-                </label>
-                <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-                    <li><a href="index.html" class="justify-between">Home Page</a></li>
-                  <li><a href="products.html">Products</a></li>
-                  <li><a>Logout</a></li>
-                </ul>
-              </div>
+                
+              
             </div>
         </main>
         <footer class="footer footer-center p-4 bg-secondary-focus text-base-content absolute insert-x-0 bottom-0">
