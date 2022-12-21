@@ -7,25 +7,29 @@
     <body class="bg-secondary h-screen w-screen">
         <header class="h-12 w-full">
             <h1 class="text-white text-xl font-bold p-4">Fish Emporium</h1>
+            <h2 class="text-white text-xl font-bold text-center">Tanks page</h2>
         </header>
-        <main class="w-full flex bg-green-500" style="height: calc(100vh - 75px)">
-            <ul class="menu bg-base-200 w-56">
-                <li class="border rounded border-pink-200 m-2 text-pink-700"><a href="tanks.html">Tanks</a></li>
-                <li class="border rounded border-pink-200 m-2 text-pink-700"><a href="sensors.html">Sensors</a></li>
-                <li class="border rounded border-pink-200 m-2 text-pink-700"><a href="reactors.html">Reactors</a></li>
-                <li class="border rounded border-pink-200 m-2 text-pink-700"><a>Hallway</a></li>
-                <li class="border rounded border-pink-200 m-2 text-pink-700"><a>Den</a></li>
-                <li class="border rounded border-pink-200 m-2 text-pink-700"><a>Kitchen</a></li>
-                <li class="border rounded border-pink-200 m-2 text-pink-700"><a>Livingroom</a></li>
-                <li class="border rounded border-pink-200 m-2 text-pink-700"><a href="products.html">Products</a></li>
-                <li class="border rounded border-pink-200 m-2 text-pink-700"><a href="user.html">User Page</a></li>
+        <main class="w-full flex bg-secondary-200" style="height: calc(100vh - 75px)">
+            <ul class="menu bg-base-200 w-56 text-secondary">
+                <li class="border-none m-2"><a href="tanks.html">Tanks</a></li>
+                <li class="border-none m-2"><a href="sensors.html">Sensors</a></li>
+                <li class="border-none m-2"><a href="reactors.html">Reactors</a></li>
+                <li class="border-none m-2"><a href="hallway.html">Hallway</a></li>
+                <li class="border-none m-2"><a href="den.html">Den</a></li>
+                <li class="border-none m-2"><a href="kitchen.html">Kitchen</a></li>
+                <li class="border-none m-2"><a href="livingroom.html">Livingroom</a></li>
+                <li class="border-none m-2"><a href="products.html">Products</a></li>
+                <li class="border-none m-2"><a href="user.html">User Page</a></li>
             </ul>
             <section class="bg-red-100 w-full grid gap-4 grid-cols-2 grid-rows-2">
                 <!--This is the tanks section-->
-                    <h1 class="text-pink-300 text-xl font-bold text-center">Tanks page</h1>
+                <div class="p-4 h-60 w-60">
                     <!--This is the tanks section-->
                     <h1 class="text-pink-300 text-xl font-bold text-center">Den</h1>
-                    <video
+                    
+                        <img src="https://www.petlandtexas.com/wp-content/uploads/2019/08/Petland_Texas_Aquarium_Algae.jpg">
+                    </div>  
+                    <!--<video
               autoplay
               loop
               muted
@@ -34,30 +38,21 @@
               src="https://www.pexels.com/video/marine-life-of-fishes-and-corals-underwater-3765078/" alt="Aquarium video"
                type="video/HD" />
               Your browser does not support the video tag.
-            </video>
-                    
-                </div>
-                
+            </video>-->              
                 <!--This is the tanks section-->
-                <div>
+                
                     <h1 class="text-pink-300 text-xl font-bold text-center ">Kitchen</h1>
-                    <img class="max-w-none" src="https://www.pexels.com/video/different-kind-of-fishes-as-part-of-the-vast-marine-life-3765059/">
-                 <!--<video
-              autoplay
-              loop
-              muted
-              class="absolute z-10 w-auto sm:invisible md:visible h-80"
-            
-              src="" />
-              Your browser does not support the video tag.
-            </video>-->   
-                    
+                    <div class="h-24 w-24">
+                    <!--<video src="https://www.pexels.com/video/different-kind-of-fishes-as-part-of-the-vast-marine-life-3765059/"></video>-->
+                    <video loop autoplay muted src="https://images.pexels.com/videos/855798/free-video-855798.jpg?auto=compress&cs=tinysrgb&w=175&fit=crop&h=275&dpr=1" type="video"></video>
                 </div>
-                
-                <!--This is the tanks section-->
+                <div>
+                    <!--This is the tanks section-->
                 <h1 class="text-pink-300 text-xl font-bold text-center ">Livingroom</h1>
-                <!--This is the tanks section-->
-                <h1 class="text-pink-300 text-xl font-bold text-center ">Hallway</h1>
+                </div>
+                <div><!--This is the tanks section-->
+                    <h1 class="text-pink-300 text-xl font-bold text-center ">Hallway</h1></div>
+                
             </section>
         </main>
         <footer class="footer footer-center p-4 bg-secondary-focus bottom-0 fixed w-full">
