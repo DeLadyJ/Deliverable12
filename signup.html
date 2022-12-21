@@ -1,53 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <link href="https://cdn.jsdelivr.net/npm/daisyui@2.42.1/dist/full.css" rel="stylesheet" type="text/css" / >
         <script src="https://cdn.tailwindcss.com"></script>
     </head>
-    <body>
-        <header class="bg-secondary h-32 w-full grid">
-        <h1 class="text-2xl text-white font-bold text-center">New User Signup Page</h1>
-        <div class="avatar grid justify-items-center mt-8">
-          <div class="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-              <img class="" src="">              
-          </div>
-          <p>Add photo</p>
-      </div>
-        <main>
-          <div class="gid grid-cols-2">
-            <div>
-            <label class="mt-16 grid justify-items-start"></label>
-            <ul tabindex="0" class="dropdown-content menu p-2 bg-base-100 border-4 border-pink-500 rounded-box w-52">
-                <p class="text-pink-500 italic">Basic Info</p>
-              <li><a>Name</a></li>
-              <li><a>Birthday</a></li>
-              <li><a>Gender</a></li>
-              <p class="text-pink-500 italic">Contact Info</p>
-              <li><a>Phone Number</a></li>
-              <li><a>Email</a></li>
-              <li><a>Address</a></li>
-            </ul>
-          </div>
-          <div class="dropdown dropdown-end grid justify-items-end">
-            <label tabindex="0" class="btn btn-ghost btn-circle avatar">
-              <div class="w-10 rounded-full">
-                <img class="" src="https://cdn-icons-png.flaticon.com/512/6213/6213546.png" />
-              </div>
-            </label>
-            <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-                <li><a href="index.html" class="justify-between">Home Page</a></li>
-              <li><a href="user.html" class="justify-between">Profile</a></li>
-              <li><a>Settings</a></li>
-              <li><a>Logout</a></li>
-            </ul>
-          </div>
-          </div>
+    <body class="bg-secondary h-screen w-screen">
+        <header class="h-12 w-full">
+            <h1 class="text-white text-xl font-bold p-4">Fish Emporium</h1>
+        </header>
+        <main class="w-full flex bg-base-200" style="height: calc(100vh - 75px)">
+              <ul class="menu bg-base-200 w-56">
+                <li class="border rounded border-pink-200 m-2 text-pink-700"><a href="tanks.html">Tanks</a></li>
+                <li class="border rounded border-pink-200 m-2 text-pink-700"><a href="sensors.html">Sensors</a></li>
+                <li class="border rounded border-pink-200 m-2 text-pink-700"><a href="reactors.html">Reactors</a></li>
+                <li class="border rounded border-pink-200 m-2 text-pink-700"><a>Hallway</a></li>
+                <li class="border rounded border-pink-200 m-2 text-pink-700"><a>Den</a></li>
+                <li class="border rounded border-pink-200 m-2 text-pink-700"><a>Kitchen</a></li>
+                <li class="border rounded border-pink-200 m-2 text-pink-700"><a>Livingroom</a></li>
+                <li class="border rounded border-pink-200 m-2 text-pink-700"><a href="products.html">Products</a></li>
+                <li class="border rounded border-pink-200 m-2 text-pink-700"><a href="user.html">User Page</a></li>
+              </ul>
+            <section class="bg-red-100 w-full flex bg-base-20">
+                <!--This is the sign up section-->
+                  <h1 class="text-pink-300 text-xl font-bold text-center ">Sign up page</h1>
+                <!--This is the basic info section-->
+                  <div>
+                    <ul class="menu bg-base-200 w-full p-2 rounded-box border-4 border-pink-500" style="height: calc(100vh - 75px)">
+                      <li class="menu-title text-xl text-red-300 italic mb-2">Basic Info</li>
+                      <input type="text" placeholder="Name" class="input border-4 border-pink-500 w-full max-w-xs mb-2" />
+                      <input type="text" placeholder="Birthday" class="input border-4 border-pink-500 max-w-xs mb-2" />
+                      <input type="text" placeholder="Gender" class="input border-4 border-pink-500 w-full max-w-xs mb-2" />
+                      <li class="menu-title text-xl text-red-300 italic mb-2">Contact Info</li>
+                      <input type="text" placeholder="Phone Number" class="input border-4 border-pink-500 w-full max-w-xs mb-2" />
+                      <input type="text" placeholder="Address" class="input border-4 border-pink-500 w-full max-w-xs mb-2" />
+                      <input type="text" placeholder="Email" class="input border-4 border-pink-500 w-full max-w-xs" />
+                    </ul>
+                  </div>
+            </section>
         </main>
-        <footer class="footer footer-center p-4 bg-secondary text-base-content absolute insert-x-0 bottom-0">
+        <footer class="footer footer-center p-4 bg-secondary-focus bottom-0 fixed w-full">
             <div>
               <p class="text-white">Copyright © 2022 - All right reserved by ACME Industries Ltd</p>
             </div>
-          </footer>
-    </header>
+        </footer>
     </body>
 </html>

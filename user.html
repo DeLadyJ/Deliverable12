@@ -9,45 +9,45 @@
     <body class="bg-secondary h-screen w-screen">
       <header class="h-12 w-full">
           <h1 class="text-white text-xl font-bold p-4">Fish Emporium</h1>
+          <h1 class="text-white text-xl font-bold text-center">Reactors page</h1>
+
           
       </header>
-      <main class="h-full w-full">        
-          <div class="grid col-1">
-            <ul class="menu bg-base-200 w-56 p-2 rounded-box border-p2 mt-20">
-                <li class="border rounded border-pink-200 m-2 text-pink-700"><a>Tanks</a></li>
-                <li class="border rounded border-pink-200 m-2 text-pink-700"><a>Sensors</a></li>
-                <li class="border rounded border-pink-200 m-2 text-pink-700"><a>Reactors</a></li>
-                <li class="border rounded border-pink-200 m-2 text-pink-700"><a>Hallway</a></li>
-                <li class="border rounded border-pink-200 m-2 text-pink-700"><a>Den</a></li>
-                <li class="border rounded border-pink-200 m-2 text-pink-700"><a>Kitchen</a></li>
-                <li class="border rounded border-pink-200 m-2 text-pink-700"><a>Livingroom</a></li>
-                <li class="border rounded border-pink-200 m-2 text-pink-700"><a>Products</a></li>
-                <li class="border rounded border-pink-200 m-2 text-pink-700"><a></a></li>
-            </ul>
-          </div>
-      </main>
-        <content class="grid grid-col-2 gap-0">
-          <div class="justify-items-center">          
-            <ul class="menu w-68 h-60 p-2 rounded-box border-4 border-pink-500">
-                <li class="menu-title text-xl text-red-300 italic mb-2">Basic Info</li>
-                  <input type="text" placeholder="Name" class="input border-4 border-pink-500 w-full max-w-xs mb-2" />
-                  <input type="text" placeholder="Birthday" class="input border-4 border-pink-500 max-w-xs mb-2" />
-                  <input type="text" placeholder="Gender" class="input border-4 border-pink-500 w-full max-w-xs mb-2" />
-            </ul>
-            <ul class="menu w-68 h-60 p-2 rounded-box border-4 border-pink-500">
-                <li class="menu-title text-xl text-red-300 italic mb-2">Contact Info</li>
-                  <input type="text" placeholder="Phone Number" class="input border-4 border-pink-500 w-full max-w-xs mb-2" />
-                  <input type="text" placeholder="Address" class="input border-4 border-pink-500 w-full max-w-xs mb-2" />
-                  <input type="text" placeholder="Email" class="input border-4 border-pink-500 w-full max-w-xs" />
-            </ul>          
-          </div>
-        </content>
-        <div></div>
-       
-        <footer class="footer footer-center p-4 bg-secondary-focus text-base-content absolute insert-x-0 bottom-0">
-            <div>
-              <p class="text-white">Copyright © 2022 - All right reserved by ACME Industries Ltd</p>
+      <main class="w-full flex bg-secondary-200" style="height: calc(100vh - 75px)">
+        <ul class="menu bg-red-100 w-56 text-white font-bold">
+            <li class="border rounded border-pink-500 m-2"><a href="tanks.html">Tanks</a></li>
+            <li class="border rounded border-pink-500 m-2"><a href="sensors.html">Sensors</a></li>
+            <li class="border rounded border-pink-500 m-2"><a href="reactors.html">Reactors</a></li>
+            <li class="border rounded border-pink-500 m-2"><a>Hallway</a></li>
+            <li class="border rounded border-pink-500 m-2"><a href="den.html">Den</a></li>
+            <li class="border rounded border-pink-500 m-2"><a>Kitchen</a></li>
+            <li class="border rounded border-pink-500 m-2"><a>Livingroom</a></li>
+            <li class="border rounded border-pink-500 m-2"><a href="products.html">Products</a></li>
+        </ul>
+      
+        <section class="bg-red-100 w-full">
+            <!--This is the users section-->
+            <div class="justify-items-center">          
+              <ul class="menu w-68 h-60 p-2 rounded-box border-2 border-pink-500">
+                  <li class="menu-title text-xl text-white font-bold italic mb-2">Basic Info</li>
+                    <input type="text" placeholder="Name" class="input border-2 border-pink-500 w-full max-w-xs mb-2" />
+                    <input type="text" placeholder="Birthday" class="input border-2 border-pink-500 max-w-xs mb-2" />
+                    <input type="text" placeholder="Gender" class="input border-2 border-pink-500 w-full max-w-xs mb-2" />
+              </ul>
+              <ul class="menu w-68 h-60 p-2 rounded-box border-2 border-pink-500">
+                  <li class="menu-title text-xl text-white font-bold italic mb-2">Contact Info</li>
+                    <input type="text" placeholder="Phone Number" class="input border-2 border-pink-500 w-full max-w-xs mb-2" />
+                    <input type="text" placeholder="Address" class="input border-2 border-pink-500 w-full max-w-xs mb-2" />
+                    <input type="text" placeholder="Email" class="input border-2 border-pink-500 w-full max-w-xs" />
+              </ul>          
             </div>
+        </section>
+      </main>
+        <div></div>
+        <footer class="footer footer-center p-4 bg-secondary-focus bottom-0 fixed w-full">
+          <div>
+            <p class="text-white">Copyright © 2022 - All right reserved by ACME Industries Ltd</p>
+          </div>
         </footer>
     </body>
 </html>
