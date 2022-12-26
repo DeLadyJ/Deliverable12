@@ -7,9 +7,10 @@
 <body class="bg-secondary h-screen w-screen">
   <header class="h-12 w-full">    
       <h1 class="text-white text-xl font-bold p-4">Aquarium Palace</h1>
-      <h2 class="text-pink-300 text-xl font-bold text-center">Sign in Page</h2>
+      <h1 class="text-white text-xl font-bold text-center ">Sign in Page</h1>
+     
   </header>
-  <main class="w-full flex bg-secondary-200" style="height: calc(100vh - 75px)">
+  <main class="w-full flex bg-secondary-200"> <!--style="height: calc(100vh - 75px)-->
      <!-- <ul class="menu bg-base-200 w-56 p-2 rounded-box border-p2 mt-20">
           <li class="border rounded border-pink-200 m-2 text-pink-700"><a>Tanks</a></li>
           <li class="border rounded border-pink-200 m-2 text-pink-700"><a>Sensors</a></li>
@@ -21,11 +22,13 @@
           <li class="border rounded border-pink-200 m-2 text-pink-700"><a>Products</a></li>
           <li class="border rounded border-pink-200 m-2 text-pink-700"><a>User Page</a></li>
       </ul>-->
-      <section>
-        <div class="flex p-2">
-        <input class="border rounded-lg h-8 w-40 text-center" type="text" placeholder="enter user name">
-        <input  class="border rounded-lg h-8 w-40 mx-2 text-center" type="text" placeholder="enter password">
-        <button type="submit" id="pwd" class="btn" onkeydown="">Submit</button>
+      <section class="grid grid-col-1"> 
+        
+        <div class="p-4 m-2 mt-16 h-auto bg-base-200 border-secondary-focus border-4 rounded-lg">
+          <p class="font-bold text-xl text-secondary-focus">Sign in below</p><br>
+        <input class="bg-base-200 border-secondary-focus border-4 rounded-lg h-8 w-40 text-center text-white" type="text" placeholder="enter user name">
+        <input class="bg-base-200 border-secondary-focus border-4 rounded-lg h-8 w-40 mx-2 text-center text-white" type="text" placeholder="enter password">
+        <button class="bg-base-200 border-secondary-focus border-4 rounded-lg w-24 text-secondary-focus font-bold" type="submit" id="pwd" class="btn" onkeydown="">Submit</button>
       </div>
       </section>
   </main>
